@@ -1,0 +1,86 @@
+
+@charset "ISO-8859-1";
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+
+  h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 5000;
+    margin-left: 10px;
+  }
+  h2,h3{
+    font-family: 'Open Sans', sans-serif;
+  }
+#parent{
+    display: grid;
+    height: 97.61vh;
+    grid-template-columns: 450px 650px;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    text-align: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+#box1,#box2,#box3{
+    margin-top: 9px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    background-color: #f5f5fa;
+}
+#stu{
+    height: 45px;
+    width: 45px;
+}
+#info{
+    height: 30px;
+    width: 30px;
+}
+#cap{
+    
+    height: 45px;
+    width: 45px;
+}
+#box3{
+    grid-column: 1/3;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* #icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+} */
+.icons{
+    height: 50px;
+    width:50px;
+}
+#buttons{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 480px;
+    gap: 20px;
+}
+
+table,td,th{
+    border: .5px solid #333333;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    font-family: 'Mandali', sans-serif;
+}
+.col1{
+    text-align: left;
+    width: 170px;
+}
+.col2{
+    width: 15px;
+}
+table{
+    width:600px;
+    margin-left: 25px;
+}
+p{
+    font-family: 'Mandali', sans-serif;
+}
